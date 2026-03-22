@@ -1,0 +1,25 @@
+{
+  "name": "ngl",
+  "version": "1.0.0",
+  "description": "not gonna lie ",
+  "keywords": [
+    "na"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "na"
+  },
+  "license": "UNLICENSED",
+  "author": "SRIDHSNT DALAI",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "na"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.1"
+  }
+}
