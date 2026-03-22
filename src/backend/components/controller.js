@@ -19,7 +19,7 @@ exports.getData = async (req,res) => {
             const time = formatted
 
             const newUser = await msgModel.create({message,time})
-            res.json({
+            res.status(200).json({
                 "data" : newUser
             })
     }catch(err){
