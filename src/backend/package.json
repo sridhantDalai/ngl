@@ -1,21 +1,14 @@
 {
   "name": "ngl",
   "version": "1.0.0",
-  "description": "not gonna lie ",
-  "keywords": [
-    "na"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "na"
-  },
-  "license": "UNLICENSED",
-  "author": "SRIDHSNT DALAI",
+  "description": "not gonna lie",
   "type": "commonjs",
   "main": "server.js",
+
   "scripts": {
-    "test": "na"
+    "start": "node index.js"
   },
+
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^17.3.1",
