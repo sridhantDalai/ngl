@@ -15,7 +15,7 @@ function App() {
     //backend
     const rawData = {"message" : msg}
     console.log(`You typed : ${msg}`);
-    const response = await fetch("http://localhost:8081/me" , {
+    const response = await fetch("https://ngl-production-0894.up.railway.app/me" , {
       method : "POST",
       headers : {
         "Content-type" : "application/json"
