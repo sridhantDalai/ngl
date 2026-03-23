@@ -44,8 +44,8 @@ function App() {
 
       {/* Main UI */}
       <header className="header-group">
-        <h1>Not Gonna Lie 💭</h1>
-        <p>Send anonymous thoughts to <span>Sridhant ❤️</span></p>
+        <h1>Not Gonna Lie</h1>
+        <p>Send anonymous thoughts to <span>Sridhant</span></p>
       </header>
 
       <main className="confession-card">
@@ -73,3 +73,5 @@ function App() {
 }
 
 export default App;
+
+
