@@ -2,7 +2,6 @@ const msgModel = require("./models/message")
 
 exports.getData = async (req,res) => {
     try{
-        
             const {message} = req.body
             const now = new Date()
 
